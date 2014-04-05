@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="2224" started-at="2014-04-05T11:58:46Z" finished-at="2014-04-05T11:58:48Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="2224" started-at="2014-04-05T11:58:46Z" finished-at="2014-04-05T11:58:48Z">
+      <class name="com.example.tests.FolderCreation">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.example.tests.FolderCreation@14ae5cd]" name="setUp" is-config="true" duration-ms="21" started-at="2014-04-05T15:58:46Z" finished-at="2014-04-05T15:58:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="FolderCreation()[pri:0, instance:com.example.tests.FolderCreation@14ae5cd]" name="FolderCreation" duration-ms="2177" started-at="2014-04-05T15:58:46Z" finished-at="2014-04-05T15:58:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FolderCreation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.example.tests.FolderCreation@14ae5cd]" name="tearDown" is-config="true" duration-ms="1" started-at="2014-04-05T15:58:48Z" finished-at="2014-04-05T15:58:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.example.tests.FolderCreation -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
