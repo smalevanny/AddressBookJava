@@ -8,8 +8,7 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 
 import com.example.fw.ApplicationManager;
-//import static com.example.tests.GroupDataGenerator.generateRandomGroups;
-//import static com.example.tests.ContactDataGenerator.generateRandomContacts;
+
 
 
 public class TestBase {
@@ -27,38 +26,4 @@ public class TestBase {
 	public void tearDown() throws Exception {
 		app.stop();	    
 	  }
-	
-	/*	@DataProvider
-	public Iterator<Object[]> randomValidGroupGenerator() {
-		return wrapGroupDataForDataProvider(generateRandomGroups(5)).iterator();
-	}
-	
-	
-
-	public List<Object[]> wrapGroupDataForDataProvider(List<GroupData> groups) {
-		List<Object[]> list = new ArrayList<Object[]>();
-		for (GroupData group : groups) {
-			list.add(new Object[]{group});
-		}
-		return list;
-	}
-
-	protected static List<Object[]> wrapContactDataForDataProvider(List<ContactData> contacts) {
-		List<Object[]> list = new ArrayList<Object[]>();
-		for (ContactData contact : contacts) {
-			list.add(new Object[]{contact});
-		}
-		return list;
-	}
-	@DataProvider
-	public Iterator<Object[]> randomValidContactGenerator () {
-		return wrapContactDataForDataProvider(generateRandomContacts(5)).iterator();
-	}
-
-	private List<ContactData> generateRandomContacts(int i) {
-		// TODO Auto-generated method stub
-		return null;
-	}
-	
-	*/
 }
