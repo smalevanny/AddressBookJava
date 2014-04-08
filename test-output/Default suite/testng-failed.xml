@@ -6,8 +6,9 @@
       <class name="com.example.tests.FolderCreation">
         <methods>
           <include name="tearDown"/>
+          <include name="SameFoldersCreation"/>
           <include name="setUp"/>
-          <include name="FolderCreation"/>
+          <include name="VariousFoldersCreation"/>
         </methods>
       </class> <!-- com.example.tests.FolderCreation -->
     </classes>

@@ -21,6 +21,7 @@ public class ApplicationManager {
 	}
 
 	public void stop() {
+		getApplication().requestClose();
 		
 	}
 

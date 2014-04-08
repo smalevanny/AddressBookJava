@@ -1,21 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="2224" started-at="2014-04-05T11:58:46Z" finished-at="2014-04-05T11:58:48Z">
+  <suite name="Default suite" duration-ms="15998" started-at="2014-04-08T07:02:53Z" finished-at="2014-04-08T07:03:09Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="2224" started-at="2014-04-05T11:58:46Z" finished-at="2014-04-05T11:58:48Z">
+    <test name="Default test" duration-ms="15998" started-at="2014-04-08T07:02:53Z" finished-at="2014-04-08T07:03:09Z">
       <class name="com.example.tests.FolderCreation">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.example.tests.FolderCreation@14ae5cd]" name="setUp" is-config="true" duration-ms="21" started-at="2014-04-05T15:58:46Z" finished-at="2014-04-05T15:58:46Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.example.tests.FolderCreation@b52f79]" name="setUp" is-config="true" duration-ms="32" started-at="2014-04-08T11:02:53Z" finished-at="2014-04-08T11:02:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="FolderCreation()[pri:0, instance:com.example.tests.FolderCreation@14ae5cd]" name="FolderCreation" duration-ms="2177" started-at="2014-04-05T15:58:46Z" finished-at="2014-04-05T15:58:48Z">
+        <test-method status="PASS" signature="SameFoldersCreation()[pri:0, instance:com.example.tests.FolderCreation@b52f79]" name="SameFoldersCreation" duration-ms="5808" started-at="2014-04-08T11:02:53Z" finished-at="2014-04-08T11:02:59Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- FolderCreation -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.example.tests.FolderCreation@14ae5cd]" name="tearDown" is-config="true" duration-ms="1" started-at="2014-04-05T15:58:48Z" finished-at="2014-04-05T15:58:48Z">
+        </test-method> <!-- SameFoldersCreation -->
+        <test-method status="PASS" signature="SomeFolderCreation()[pri:0, instance:com.example.tests.FolderCreation@b52f79]" name="SomeFolderCreation" duration-ms="3385" started-at="2014-04-08T11:02:59Z" finished-at="2014-04-08T11:03:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SomeFolderCreation -->
+        <test-method status="PASS" signature="VariousFoldersCreation()[pri:0, instance:com.example.tests.FolderCreation@b52f79]" name="VariousFoldersCreation" duration-ms="6741" started-at="2014-04-08T11:03:02Z" finished-at="2014-04-08T11:03:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VariousFoldersCreation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.example.tests.FolderCreation@b52f79]" name="tearDown" is-config="true" duration-ms="0" started-at="2014-04-08T11:03:09Z" finished-at="2014-04-08T11:03:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
